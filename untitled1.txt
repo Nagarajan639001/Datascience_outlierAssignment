@@ -1,0 +1,38 @@
+what is 1,5 rule in IQR?
+1.5 rule is a rule of thrumb for identfying outliers in a data set
+It states that a data point is an outlier,it is morethan 1.5 times th interauantile range(IQR)
+above the Q3 or below the Q1
+
+The five number summaried for the day & Night classes
+
+          Minimum       Q1        Median     Q3     maximum
+    Day     32          56          74.5    82.5       99
+    Night   25.5        78          81      89         98
+    
+   Day :  To calcuate the IQR : Q3-Q1 =82.5-56 = 26.5
+                      Lesser  : Q1-1.5*IQR = 56-(1.5*26.5)=56-39.75=16.25
+                      Greater : Q3+1.5*IQR = 82.5+(1.5*26.5)=82.5+39.75=122.25
+                      
+  Night :  To calcuate the IQR : Q3-Q1 =89-78 = 11
+                      Lesser  : Q1-1.5*IQR = 78-(1.5*11)=78-16.5 =61.5
+                      Greater : Q3+1.5*IQR = 89+(1.5*11)=89.5+16.5=105.50
+             
+             
+                    sl_no	ssc_p	hsc_p	degree_p	etest_p	mba_p	salary
+    IQR	            107     15.1	12.1	11	     23.5	     8.31	 60000
+    1.5 Rule	    160.5	22.65	18.15	16.5	 35.25	     12.465	 90000
+    Lesser	-       106	    37.95	42.75	44.5	 24.75	     45.48	 150000
+    Greater	        322	98. 35	    91.15	88.5	 118.75	     78.72	 390000
+    Min            	1	    40.89	37	    50	     50	         51.21	 200000
+    Max	            215	    89.4	97.7	91	     98	         77.89	 940000
+    
+    
+    
+    
+    In SSC_passed Less outlier -37.95  & Greaterlier-35
+    In HSC_passed Less outlier -42.75  & Greaterlier-91.15
+    In Degree_passed Less outlier -44.5  & Greaterlier-88.5
+    In Etest_passed Less outlier -24.75  & Greaterlier-118.75
+    In MBA_passed Less outlier -45.48  & Greaterlier-78.72
+    In Salar Less outlier-150000 & Greaterlier -390000
+​         
